@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C084CC0299E1460009803EE /* SettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C084CBF299E1460009803EE /* SettingModel.swift */; };
 		3CB1A47C28F3F1FB0036A549 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1A47B28F3F1FB0036A549 /* AppDelegate.swift */; };
 		3CB1A47E28F3F1FB0036A549 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1A47D28F3F1FB0036A549 /* SceneDelegate.swift */; };
 		3CB1A48028F3F1FB0036A549 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1A47F28F3F1FB0036A549 /* ViewController.swift */; };
@@ -16,6 +17,10 @@
 		3CB1A49328F3F1FD0036A549 /* Setting_Clone_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1A49228F3F1FD0036A549 /* Setting_Clone_AppTests.swift */; };
 		3CB1A49D28F3F1FD0036A549 /* Setting_Clone_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1A49C28F3F1FD0036A549 /* Setting_Clone_AppUITests.swift */; };
 		3CB1A49F28F3F1FD0036A549 /* Setting_Clone_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1A49E28F3F1FD0036A549 /* Setting_Clone_AppUITestsLaunchTests.swift */; };
+		3CB1A4AD29053F310036A549 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1A4AB29053F310036A549 /* ProfileCell.swift */; };
+		3CB1A4AE29053F310036A549 /* ProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CB1A4AC29053F310036A549 /* ProfileCell.xib */; };
+		3CB1A4B329054E250036A549 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB1A4B129054E250036A549 /* MenuCell.swift */; };
+		3CB1A4B429054E250036A549 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CB1A4B229054E250036A549 /* MenuCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C084CBF299E1460009803EE /* SettingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingModel.swift; sourceTree = "<group>"; };
 		3CB1A47828F3F1FB0036A549 /* Setting_Clone_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Setting_Clone_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB1A47B28F3F1FB0036A549 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CB1A47D28F3F1FB0036A549 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,10 @@
 		3CB1A49828F3F1FD0036A549 /* Setting_Clone_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Setting_Clone_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB1A49C28F3F1FD0036A549 /* Setting_Clone_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting_Clone_AppUITests.swift; sourceTree = "<group>"; };
 		3CB1A49E28F3F1FD0036A549 /* Setting_Clone_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting_Clone_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CB1A4AB29053F310036A549 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		3CB1A4AC29053F310036A549 /* ProfileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCell.xib; sourceTree = "<group>"; };
+		3CB1A4B129054E250036A549 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		3CB1A4B229054E250036A549 /* MenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				3CB1A47B28F3F1FB0036A549 /* AppDelegate.swift */,
+				3CB1A4B129054E250036A549 /* MenuCell.swift */,
+				3CB1A4B229054E250036A549 /* MenuCell.xib */,
+				3C084CBF299E1460009803EE /* SettingModel.swift */,
+				3CB1A4AB29053F310036A549 /* ProfileCell.swift */,
+				3CB1A4AC29053F310036A549 /* ProfileCell.xib */,
 				3CB1A47D28F3F1FB0036A549 /* SceneDelegate.swift */,
 				3CB1A47F28F3F1FB0036A549 /* ViewController.swift */,
 				3CB1A48128F3F1FB0036A549 /* Main.storyboard */,
@@ -232,6 +247,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CB1A48828F3F1FD0036A549 /* LaunchScreen.storyboard in Resources */,
+				3CB1A4AE29053F310036A549 /* ProfileCell.xib in Resources */,
+				3CB1A4B429054E250036A549 /* MenuCell.xib in Resources */,
 				3CB1A48528F3F1FD0036A549 /* Assets.xcassets in Resources */,
 				3CB1A48328F3F1FB0036A549 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CB1A48028F3F1FB0036A549 /* ViewController.swift in Sources */,
+				3CB1A4B329054E250036A549 /* MenuCell.swift in Sources */,
+				3C084CC0299E1460009803EE /* SettingModel.swift in Sources */,
+				3CB1A4AD29053F310036A549 /* ProfileCell.swift in Sources */,
 				3CB1A47C28F3F1FB0036A549 /* AppDelegate.swift in Sources */,
 				3CB1A47E28F3F1FB0036A549 /* SceneDelegate.swift in Sources */,
 			);
